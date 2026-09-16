@@ -1,0 +1,10 @@
+week01/venv/
+week01/.idea/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+.idea/
+*.iml
+.env
