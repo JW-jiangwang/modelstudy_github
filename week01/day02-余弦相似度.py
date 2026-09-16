@@ -1,4 +1,5 @@
 import os
+os.environ["NO_PROXY"] = "hf-mirror.com"
 os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 
 from sentence_transformers import SentenceTransformer
