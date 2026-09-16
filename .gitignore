@@ -1,5 +1,5 @@
-week01/venv/
-week01/.idea/
+week*/venv/
+week*/.idea/
 venv/
 .venv/
 env/
