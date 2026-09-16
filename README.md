@@ -1,0 +1,2 @@
+day01：用tokenizer看看各个文本token之间的变化
+day02: embedding 和余弦相似度，验证语义检索能区分同词不同义
