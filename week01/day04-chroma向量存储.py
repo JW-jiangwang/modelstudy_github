@@ -4,7 +4,7 @@
 # ============================================================
 
 import os
-os.environ["NO_PROXY"] = "hf-mirror.com"
+#os.environ["NO_PROXY"] = "hf-mirror.com"
 os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
 __import__('pysqlite3')
 import sys
@@ -40,7 +40,8 @@ embedding_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
 # get_or_create：有就获取，没有就创建
 collection = client.get_or_create_collection(
     name="my_docs",
-    embedding_function=embedding_fn
+    embedding_function=embedding_fn,
+    metadata={"hnsw:space": "cosine"}
 )
 
 
