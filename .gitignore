@@ -10,3 +10,4 @@ __pycache__/
 .env
 vector_store.json
 chroma_db/
+eval_report.json
