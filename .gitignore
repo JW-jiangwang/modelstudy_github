@@ -11,3 +11,5 @@ __pycache__/
 vector_store.json
 chroma_db/
 eval_report.json
+chroma_db_base/
+chroma_db_small/
